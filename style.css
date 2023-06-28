@@ -24,8 +24,8 @@ body{
 }
 
 .container{
-  width:700px;
-  height:400px;
+  width:auto;
+  height:auto;
   box-shadow: 3px 4px 9px 1px rgba(0,0,0,0.24);
   border-radius:5px;
   overflow: hidden;
@@ -44,8 +44,8 @@ body{
 .card{
   display:inline-block;
   vertical-align:top;
-  height:100%;
-  width:50%;
+  height:auto;
+  width:100%;
   padding:20px;
   background-color:var(--Cyan);
   color:white;
@@ -109,4 +109,15 @@ body{
 
  .card p:last-of-type{
   margin-top:1rem;
+}
+
+@media (min-width:575px){
+  .container{
+    width:570px;
+    height:400px;
+  }
+  
+  .card{
+    width:50%;
+  }
 }
