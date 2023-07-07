@@ -21,6 +21,7 @@ h2,h3,p{
 
 body{
   padding:40px;
+  background-color: var(--Light-Gray);
 }
 
 .container{
@@ -115,6 +116,7 @@ body{
   .container{
     width:560px;
     height:400px;
+    margin: auto;
   }
   
   .card{
