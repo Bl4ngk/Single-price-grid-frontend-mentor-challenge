@@ -44,7 +44,7 @@ body{
 .card{
   display:inline-block;
   vertical-align:top;
-  height:auto;
+  height:100%;
   width:100%;
   padding:20px;
   background-color:var(--Cyan);
@@ -111,9 +111,9 @@ body{
   margin-top:1rem;
 }
 
-@media (min-width:575px){
+@media (min-width:576px){
   .container{
-    width:570px;
+    width:560px;
     height:400px;
   }
   
